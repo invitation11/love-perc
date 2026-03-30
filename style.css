@@ -1,0 +1,52 @@
+h3{
+    border: 4px solid maroon;
+    padding: 10px;
+    text-align: center;
+    background-color: lightseagreen;
+    box-shadow: brown 5px 5px 15px;
+    width: 50px;
+    color: white;
+}
+.ip{
+    border: 2px solid rgb(141, 52, 110);
+    border-radius: 9px;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(190, 219, 95);
+    color: rgba(211, 15, 8, 0.788);
+}
+button{
+    border: 2px solid rgb(141, 52, 110);
+    padding: 5px;
+    border-radius: 16px;
+    background-color: rgb(96, 109, 56);
+    
+}
+button:hover{
+    background-color: rgb(190, 219, 95);
+    color: rgb(141, 52, 110);
+    border: 2px solid rgb(141, 52, 110);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.ip:hover{
+    background-color: rgb(190, 219, 95);
+    color: rgb(141, 52, 110);
+    border: 2px solid rgb(141, 52, 110);
+    
+    transform: scale(1.1);
+}
+body{
+    background-color: rgb(190, 219, 95);
+    border: 2px solid rgb;
+}
+@media (max-width: 750px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    
+}
