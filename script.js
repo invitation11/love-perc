@@ -5,6 +5,7 @@ import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/12.11
 const firebaseConfig = {
     apiKey: "AIzaSyBJbvDfsEjhxxUqsLcfM8zERHKE5Iylcvg",
     authDomain: "love-percent-data.firebaseapp.com",
+    databseURL:"https://love-percent-data-default-rtdb.europe-west1.firebasedatabase.app/",
     projectId: "love-percent-data",
     storageBucket: "love-percent-data.firebasestorage.app",
     messagingSenderId: "457346939481",
